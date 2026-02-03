@@ -83,10 +83,10 @@
 
 
 
-let x=true
-let y=false
+// let x=true
+// let y=false
 
-console.log((x&&!y)||(!x&&y))
+// console.log((x&&!y)||(!x&&y))
 
 // 1 ЗАДАЧА
 // let x = prompt("напишите число с 10 до 100");
@@ -199,5 +199,94 @@ console.log((x&&!y)||(!x&&y))
 // 15 Задача (Цикл for с шагом в 2 числа НЕЧЁТНЫЕ)
 // for (let i =1; i <=10; i+=2){
 //         console.log(i)
+// }
+
+// 1 Задача
+// let x = prompt ("Введите логин")
+// let z = prompt ("Введите пароль")
+// if (x === "admin" && z === "password"){
+//         console.log("Доступ разрешен")
+// }
+// else{
+//         console.log("Отказано в доступе")
+// }
+
+// 2 Задача
+// let x = +prompt("Введите число")
+// let y = 1
+// for (i = 1; i <= x; i++){
+// y = x + i
+// alert ("сумма" + y)
+
+// 3 Задача
+// let x = Number (prompt("Введите число"))
+// let y = 0;
+// let z = 1;
+// if ( x % 2 === 0){
+//         for(i=1; i<=x; i++){
+//         z = z * i;
+//         }
+// alert ("ответ" + z);
+// }
+// else{
+//         for(i=1; i<=x; i++){
+//         y = y + i;
+// }
+// alert ("ответ" + y);
+// }
+
+// 3 Задача (измененная)
+// let x = +prompt("введите число")
+
+// if (x % 2 === 0) { //если x = чётное
+
+//         let sum = 0
+//         for (let i = 1; i  <= x; i++) // счётик i
+//         {
+//                 sum = sum + i;
+//                 console.log(sum);
+//         }
+// }
+// else {
+
+//         let multiplication = 1;
+//         for (let i = 1; i < x; i++)
+//         {
+//                 multiplication = multiplication * i;
+//                 console.log(multiplication);
+//         }
+// }
+
+// let sum = 0
+
+// while (true) {
+//         let value = +prompt("Введите число")
+
+//         if (!value) break;
+//                 sum = sum + value
+// }
+// alert (sum);
+
+// for (let i = 0; i < 10; i++){
+//         if (i % 2 !== 0) continue;
+//         alert (i)
+// }
+
+// let a = +prompt("Введите число")
+
+// switch (a) {
+//  case 3:
+//                 alert("Мало")
+//                 break;
+//  case 4: 
+//                 alert ("В точку")
+//                 break;
+//  case 5:
+//                 alert ("Много")
+//                 break;
+//                 default:
+//                 alert("Мимо")
+//                 break;
+                
 // }
 
