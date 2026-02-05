@@ -290,3 +290,99 @@
                 
 // }
 
+// let a = +prompt("введите число")
+// switch(a) { 
+//     case 0:
+//         alert('0')
+//         break
+//         case 1:
+//             alert('1')
+//             break
+//             case 2:
+//          case 3:
+//     alert('2 3') 
+//     break
+//     default:
+//     alert("не в диапозоне")
+// }
+
+// function func() { //function declaration
+//         alert( "Всем привет!"); //
+// }
+
+// func() // вызов
+
+// function func(параметры) {
+//  alert("Всем привет!"); // тело функции
+// }
+
+// function func () {
+//         var a = 5
+//         alert (a)
+// }
+
+// func
+
+// function func(a, b) {
+//         // console.log (a + b) // локальный код функции (тело) // callback
+//         return (a + b) // 
+// }
+
+// let sum = func(3, 5)
+// console.log (sum (5 , 3))
+
+// вызов с аргументами
+
+//arrow function
+
+// let func = (name) => {
+//         let message = "Привет, " + name
+//         console.log(message)
+// }
+
+// (func("Дмитрий"))
+
+// ---------------------------
+// Программа будет считать сумму значений по кол-ву аргументов.
+// function sumAll() {
+// let sum = 0
+// for (let i = 0; i < arguments.length; i++) {
+//         sum = sum + arguments[i]
+// }
+// return sum
+// }
+
+// console.log(sumAll(1, 2, 3, 4)) // 1+2+3+4 = 10
+
+// Напишите функцию, которая принимает число, в консоль выводится результат квадрата этого числа.
+
+// function num1() {
+//         let x = +prompt ("Введите число")
+//         x = x**2;
+//         alert(x);
+
+
+// }
+// num1()
+
+// -------------------
+
+// let num = (num1) => {
+// num1 = num1 **2;
+// console.log(num1)
+// }
+
+// num (prompt())
+
+// Напишите функцию, которая принимает два числа (с клавиатуры) и возвращает большее из них
+// let numCheck = (num1, num2) => {
+//         if(num1 > num2)
+//                 console.log(num1)
+//         else if(num1 < num2)
+//                 console.log(num2)
+//         else{console.log("they are equal")}
+// }
+ 
+// numCheck(prompt(), prompt())
+
+
