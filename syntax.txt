@@ -601,3 +601,23 @@ numCheck(+prompt(), +prompt())
 РЕАЛИЗОВАТЬ С ПОМОЩЬЮ ФУНКЦИИ. При этом, одна функция должна быть БЕЗ ПАРАМЕТРОВ/АРГУМЕНТОВ, а вторая функция - с параметрами/аргументами.
  
 + Решать задания code-basics.com (создать уч.запись). 
+
+ДЗ 10.02.2026
+function switchcase(num1) { 
+     num1 = +prompt("введите число")
+     switch(num1) { 
+    case 0:
+         alert('0')
+         break
+         case 1:
+            alert('1')
+             break
+             case 2:
+          case 3:
+     alert('2 3') 
+     break
+     default:
+     alert("не в диапозоне")
+}
+}
+switchcase()
