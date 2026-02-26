@@ -666,3 +666,91 @@ function switchcase(num1) {
 }
 switchcase()
 
+
+Следующая тема Обьекты
+const user = {
+    name: "petrov",
+    age: 30,
+phone: '52356237'
+}
+// const admin = user //создание сыллки (admin) на обьект user
+
+// console.log(admin.name)// вывод значения свойства обьекта(name)
+
+// let user = new Object(); // синтаксис "конструктор объекта"
+// let user = {};  // синтаксис "литерал объекта"
+
+//обьект-конструкьор
+// let secondlUser = new User()
+
+//изменить значения свойства обьекта
+// user.name = "Ivanov"
+// user["name"] = "sidorov" // <- лучше вот так( наверное)
+// // delete user.name // удаления свойства со значениеем
+// // delete user["name"]// то же самое что и сверху
+
+// console.log(user.name)// выввод значения
+// const clone = user
+// { 
+//     for(let key in user) {   // in - для поиска ключа в обьекте
+//         clone[key] = user[key]
+//     }
+// }
+
+// clone.name = "sidorov"
+// console.log(user.name)
+
+// проверка наличие свойств в обьекте
+// console.log(['phone'] in user) // проверка наличие свойст в обьекте
+
+Следующая тема МАССИВЫ
+
+
+const array = [ "hello", true, 3, false, "old", 3,14,] // индекс элементов в массиве
+//forEach() - применяет функцию для каждого элемента массива
+array.forEach(function(element){ // выведем все элементы в консоль
+        console.log(element) // callback в виде вывода элемента 
+
+})
+
+// let matrix = [
+//         [1, 2, 3]
+//         [4, 5, 6]
+//         [7, 8, 9]
+// ];
+
+// alert (matrix[2][1]);
+
+const array = [ "hello", true, 3, false, "old", 3,14,] // индекс элементов в массиве
+//forEach() - применяет функцию для каждого элемента массива
+let newArray = forEach(function(element){ // выведем все элементы в консоль
+        console.log(element) // callback в виде вывода элемента 
+})
+
+Метод map
+const array = [ 1, 2, 3, 4] // индекс элементов в массиве
+let newArray = array.map((element => element * 2))
+console.log(newArray)
+console.log(array)
+
+метод filter
+
+const array = [ -3, 1, 2, 3, 4, -1, -4]
+
+let newArray = array.filter(function(element) {
+if (element % 2 == 0 ) {
+        return true
+   }
+        else {
+        return false
+   }
+})
+console.log(newArray)
+
+let a = 5
+let b = "hello"
+
+console.log(5 + hello)
+console.log('${a} ${b}')
+
+
